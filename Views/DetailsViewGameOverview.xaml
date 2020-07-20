@@ -146,6 +146,9 @@
                                     <Label x:Name="PART_ElemCategories" Content="{DynamicResource LOCGameCategoriesTitle}" />
                                     <ItemsControl x:Name="PART_ItemsCategories" />
 
+                                    <Label x:Name="PART_ElemFeatures" Content="{DynamicResource LOCFeaturesLabel}" />
+                                    <ItemsControl x:Name="PART_ItemsFeatures" />
+
                                     <Label x:Name="PART_ElemTags" Content="{DynamicResource LOCTagsLabel}" />
                                     <ItemsControl x:Name="PART_ItemsTags" />
 
