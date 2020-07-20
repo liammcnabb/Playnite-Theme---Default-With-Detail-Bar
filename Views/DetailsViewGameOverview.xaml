@@ -111,7 +111,7 @@
 
                                 <GridEx Margin="40,5,20,10"
                                                 GridEx.ColumnCount="2" GridEx.StarColumns="1"
-                                                GridEx.RowCount="20" GridEx.AutoLayoutColumns="2">
+                                                GridEx.RowCount="21" GridEx.AutoLayoutColumns="2">
                                     <GridEx.Resources>
                                         <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseTextBlockStyle}" />
                                     </GridEx.Resources>
