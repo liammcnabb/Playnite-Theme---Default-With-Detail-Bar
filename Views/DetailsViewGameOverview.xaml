@@ -111,7 +111,7 @@
 
                                 <GridEx Margin="40,5,20,10"
                                                 GridEx.ColumnCount="2" GridEx.StarColumns="1"
-                                                GridEx.RowCount="20" GridEx.AutoLayoutColumns="2">
+                                                GridEx.RowCount="21" GridEx.AutoLayoutColumns="2">
                                     <GridEx.Resources>
                                         <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseTextBlockStyle}" />
                                     </GridEx.Resources>
@@ -145,6 +145,9 @@
 
                                     <Label x:Name="PART_ElemCategories" Content="{DynamicResource LOCGameCategoriesTitle}" />
                                     <ItemsControl x:Name="PART_ItemsCategories" />
+
+                                    <Label x:Name="PART_ElemFeatures" Content="{DynamicResource LOCFeaturesLabel}" />
+                                    <ItemsControl x:Name="PART_ItemsFeatures" />
 
                                     <Label x:Name="PART_ElemTags" Content="{DynamicResource LOCTagsLabel}" />
                                     <ItemsControl x:Name="PART_ItemsTags" />
